@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 
-# turns linear actuator off
+# turns linear actuator off **must be the final line of code in "main function" **
 def off():
     ("Status: OFF")
     RELAIS_1_GPIO = 22
